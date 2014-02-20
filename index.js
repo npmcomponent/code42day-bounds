@@ -3,7 +3,7 @@ var clone;
 if ('undefined' == typeof window) {
   clone = require('clone-component');
 } else {
-  clone = require('clone');
+  clone = require('component-clone');
 }
 
 module.exports = Bounds;
